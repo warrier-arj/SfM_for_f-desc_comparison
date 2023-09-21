@@ -1,16 +1,10 @@
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-Names:
-Arjun Rajeev Warrier
-Sahil Kiran Bodke
-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
 Topic: Implementation of SfM and comparison of feature descriptors
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-Link to Presentation:
-https://drive.google.com/file/d/1dfI_5010ud3iM9OaDvB5UmLPw-rQOJpo/view?usp=share_link
-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
+
 Project Description:
 Our project aims to develop a Python-based structure from motion pipeline, incorporating various feature descriptors for comparison purposes. To achieve this, we will be referencing OpenSfm and COLMAP documentations, as well as other relevant publications to determine appropriate comparison metrics for the feature descriptors. Additionally, we plan to explore different types of RANSAC algorithms to augment our pipeline, subject to time constraints.
-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
 
 
 Code Particulars:
@@ -22,7 +16,7 @@ Two Main strucures have been included:
 		To run a different dataaset include in if condition in matching and change name in main.py
 
 File Directory:
-2) Dataset: 
+2) Dataset(not included): 
 - Middlebury dataset has been used.
 - The dataset follows a specific directory structure which is as follows:
  
@@ -33,4 +27,4 @@ File Directory:
 - Store scripts immediately outside the datasets folder. 
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------
